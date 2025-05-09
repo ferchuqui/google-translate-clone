@@ -2,6 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
 
+const initialState = {
+  fromLanguage: 'auto',
+  toLanguage: 'en',
+  fromText: '',
+  result: '',
+  loading: false
+}
 
 function App() {
   
